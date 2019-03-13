@@ -25,12 +25,10 @@ def printer(array)
   name_badge_room << batch_badge_creator(array).zip.assign_rooms(array)
   puts name_badge_room
 end
-=end 
+=end
 
 def printer(array)
   array.each {|name| puts "#{batch_badge_creator(array)}"}
   puts batch_badge_creator(array)
   puts assign_rooms(array)
 end
-
-
