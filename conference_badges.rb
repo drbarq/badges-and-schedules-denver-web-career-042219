@@ -28,7 +28,7 @@ end
 printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 =end
 
-def printer
+def printer(array)
   puts batch_badge_creator(array)
   puts assign_rooms(array)
 end
