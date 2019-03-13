@@ -28,8 +28,8 @@ end
 printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 =end
 
-def printer(attendees)
+def printer(array)
   name_badge_room = Array.new
-  name_badge_room << batch_badge_creator(attendees).zip.assign_rooms(attendees)
+  name_badge_room << batch_badge_creator(array).zip.assign_rooms(array)
   puts name_badge_room
 end
