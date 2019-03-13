@@ -25,7 +25,7 @@ def printer(array)
   puts badge_name_room
 end
 
-batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 =end
 
 def printer(array)
