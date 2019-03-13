@@ -15,6 +15,6 @@ def assign_rooms(array)
   room_name_assignments = Array.new
   room_number = 0
   array.each {|name| room_name_assignments << "Hello, #{name}! You'll be assigned to room #{room_number}!" room_number = 1+ room_number}
-
-
+  puts room_name_assignments
+  return room_name_assignments
 end
