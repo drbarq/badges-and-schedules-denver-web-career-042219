@@ -35,5 +35,5 @@ def printer(array)
 
   rooms.each {|room| puts room}
   
-    
+
 end
