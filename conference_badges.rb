@@ -29,6 +29,8 @@ printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 =end
 
 def printer(array)
+  array.each {|name| puts batch_badge_creator(array)}
+  array.each {|name| puts assign_rooms(array)}
   puts batch_badge_creator(array)
   puts assign_rooms(array)
 end
