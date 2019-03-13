@@ -31,9 +31,5 @@ printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 def printer(array)
 
 puts batch_badge_creator(array).zip.assign_rooms(array)
-##  array.each {|name| puts batch_badge_creator(name)}
 
-  ##puts batch_badge_creator(array)
-
-  ##puts assign_rooms(array)
 end
