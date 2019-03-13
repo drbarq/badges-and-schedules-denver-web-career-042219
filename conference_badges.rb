@@ -14,10 +14,10 @@ end
 def assign_rooms(array)
   room_name_assignments = Array.new
   room_number = 0
-  array.each {|name| room_name_assignments << "Hello, #{name}! You'll be assigned to room #{array.find_index(name)}!" }
+  array.each {|name| room_name_assignments << "Hello, #{name}! You'll be assigned to room #{array.find_index(name) + 1}!" }
   puts room_name_assignments
   return room_name_assignments
 end
 
 
-array = (["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
