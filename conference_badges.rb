@@ -27,13 +27,13 @@ def printer(array)
 end
 =end
 
+## I think there is a way to do this without storing it in a new array first.  
+#cI tried .zip above but thats not what the test wanted
+
 def printer(array)
   badges = batch_badge_creator(array)
   rooms = assign_rooms(array)
 
   badges.each {|badge| puts badge}
-
   rooms.each {|room| puts room}
-  
-
 end
