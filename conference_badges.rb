@@ -18,5 +18,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  puts zip.(batch_badge_creator(array), assign_rooms(array))
+  puts batch_badge_creator(array).zip.(assign_rooms(array))
 end
+
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
