@@ -30,6 +30,6 @@ printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 
 def printer(attendees)
   name_badge_room = Array.new
-  name_badge_room << batch_badge_creator(array).zip.assign_rooms(array)
+  name_badge_room << batch_badge_creator(attendees).zip.assign_rooms(attendees)
   puts name_badge_room
 end
