@@ -28,8 +28,12 @@ end
 =end
 
 def printer(array)
-  array.each {|name| puts "#{batch_badge_creator(name)}"}
-##  puts batch_badge_creator(array)
+  badges = batch_badge_creator(array)
+  rooms = assign_rooms(array)
 
-##  puts assign_rooms(array)
+  badges.each {|badge| puts badge}
+
+  rooms.each {|room| puts room}
+  
+    
 end
