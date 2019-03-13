@@ -19,7 +19,7 @@ end
 
 def printer(array)
   badge_name_room = Array.new
-  array.each {|name| badge_name_room << batch_badge_creator(array).zip.(assign_rooms(array))
+  array.each {|name| badge_name_room << batch_badge_creator(array).zip.(assign_rooms(array))}
   puts badge_name_room
 end
 
