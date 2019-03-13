@@ -16,3 +16,7 @@ def assign_rooms(array)
   array.each {|name| room_name_assignments << "Hello, #{name}! You'll be assigned to room #{array.find_index(name) + 1}!" }
   return room_name_assignments
 end
+
+def printer
+  puts zip.(batch_badge_creator(array), assign_rooms(array))
+end 
